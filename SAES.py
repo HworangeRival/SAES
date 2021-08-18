@@ -16,7 +16,7 @@ except ImportError:
 
 os.system( 'clear' )
 
-SHODAN_API_KEY: str  = 'HVDUv7xQZAo0ynISA2NqINZZgSLKZCp4'
+SHODAN_API_KEY: str  = ''
 SEARCH_PATTERN: str = 'port:"445" "SMB Version: 1" os:"Windows"'
 MatchesTemporaryList = [] ; CVETemporaryList = ['Scan for CVE ms17_010 EthernalBlue..',' ']; outputfile = ''
 SearchCVE: bool = False ; Verbose: bool = False
